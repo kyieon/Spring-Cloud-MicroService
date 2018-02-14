@@ -5,9 +5,7 @@ zuul:
       path: /v1/api.do/**
       service-id: api-service
       strip-prefix: true
-         
     api-v2:
       path: /invoker/v2/api.do/**
       service-id: api-service
       strip-prefix: false
-    
