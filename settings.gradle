@@ -18,7 +18,7 @@ include 'services:webservice'
 
 rootProject.name = 'Spring-Cloud-MicroService'
 
-include 'APIService'
 include 'DiscoveryService'
 include 'EdgeService'
+include 'APIService'
 include 'TraceService'
